@@ -13,21 +13,22 @@ export default () => {
 /*
     define also like this with parameters;
 
+*/
 
 export default (userName,message) => {
     console.log('Hello world');
     return userName + ' ' + message;
 };
 
-*/
+
 
 /*
     define also like this;
 */
 
-/**
+
 export default function() {
     console.log('Hello world');
  };
 
- */
+ 
