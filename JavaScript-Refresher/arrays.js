@@ -52,6 +52,18 @@ console.log(objects);
  * shortest way of writhing upper code :
  */
 
-const objects1 = hobbies.map((item) => ({ item: item }));
+const objects1 = hobbies.map((item) => ({ text: item }));
 
 console.log(objects1);
+
+// example: 
+
+function transformToObjects(numberArray) {
+	const objects1 = numberArray.map((value) => ({ val: value }));
+
+	return objects1;
+}
+
+console.log(transformToObjects([1, 2, 3, 4]));
+
+
