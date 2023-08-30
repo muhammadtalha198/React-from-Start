@@ -1,5 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
-import TestComponent from "./components/TestComponent";
+import ExpenseItem from "./components/ExpenseItem1";
 
 function App() {
 	const expenses = [
@@ -39,6 +39,17 @@ function App() {
 				expense={expenses[1]}
 			/>
 			<ExpenseItem
+				expense={expenses[2]}
+			/>
+
+
+			<ExpenseItem1
+				expense={expenses[0]}
+			/>
+			<ExpenseItem1
+				expense={expenses[1]}
+			/>
+			<ExpenseItem1
 				expense={expenses[2]}
 			/>
 
