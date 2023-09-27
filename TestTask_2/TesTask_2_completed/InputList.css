@@ -1,0 +1,45 @@
+/* Style for the container div */
+.input-list {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  /* Style for the heading */
+  .input-list h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input field */
+  .input-list input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input-list.invalid input[type="text"] {
+    border: 4px solid rgb(218, 7, 7);
+    border-radius: 5px;
+  }
+  
+  /* Style for the button */
+  .input-list .input-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  .input-list .input-button:hover {
+    background-color: #06b3ad;
+  }
+  
